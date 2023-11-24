@@ -4458,6 +4458,11 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
 }
 
+.nav-link2 {
+  display: flex;
+  color: white;
+}
+
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
@@ -4608,6 +4613,22 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+.navbar-nav-footer{
+  gap: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: row;
+  margin-bottom: 0;
+  list-style: none;
+  padding: 15px 338px;
+  text-align: center;
 }
 
 .navbar-nav .nav-link {
@@ -11357,6 +11378,11 @@ pre .code {
   width: 300px;
 }
 
+.img-skills{
+  max-width: 51px;
+  height: 30px;
+}
+
 .social-icons {
   list-style-type: none;
   padding-left: 0;
@@ -11368,14 +11394,29 @@ pre .code {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 180px;
+  max-width: 46px;
 }
 
-.social-icons .social-link {
+.social-icons2{
+  list-style-type: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 46px;
+  margin: auto;
+}
+
+.social-icons .social-icons2 .social-link {
   font-size: 18px;
 }
 
-.social-icons .social-link:hover {
+.social-icons  .social-icons2 .social-link:hover {
   color: #F85C70;
 }
 
@@ -11487,7 +11528,7 @@ pre .code {
 }
 
 .footer {
-  background: #17263C;
+  background: #212529;
 }
 
 .header {
