@@ -257,12 +257,7 @@ select {
   word-wrap: normal;
 }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
+
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -283,13 +278,6 @@ input[type="radio"],
 input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
-}
-
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox;
 }
 
 textarea {
@@ -325,19 +313,11 @@ progress {
   height: auto;
 }
 
-[type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none;
-}
 
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
 
-::-webkit-file-upload-button {
-  font: inherit;
-  -webkit-appearance: button;
-}
+
+
+
 
 output {
   display: inline-block;
@@ -4147,9 +4127,6 @@ input[type="button"].btn-block {
   background-color: #fff;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
 }
 
 .custom-select:focus {
@@ -4266,9 +4243,6 @@ input[type="button"].btn-block {
   height: calc(1rem + 0.4rem);
   padding: 0;
   background-color: transparent;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
 }
 
 .custom-range:focus {
@@ -4291,7 +4265,7 @@ input[type="button"].btn-block {
   border: 0;
 }
 
-.custom-range::-webkit-slider-thumb {
+.custom-range {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
@@ -4300,8 +4274,6 @@ input[type="button"].btn-block {
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  -webkit-appearance: none;
-          appearance: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6236,14 +6208,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   opacity: .75;
 }
 
-button.close {
-  padding: 0;
-  background-color: transparent;
-  border: 0;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
+
 
 a.close.disabled {
   pointer-events: none;
