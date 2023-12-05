@@ -43,7 +43,7 @@ $(window).on("load", function() {
 //Ver PDF
 document.getElementById('descargarPDF').addEventListener('click', function() {
   // Cambia esta URL por la del archivo PDF alojado en tu servidor
-  var url = 'https://www.dropbox.com/scl/fi/eysrr221hanrezl3nrn2e/CV-Randy-Luna-Ram-rez.pdf?rlkey=slvdcvxrt5gw5zyvdu0ms16kb&dl=0';
+  var url = 'https://pdf.ac/3b38z7';
 
   var enlace = document.createElement('a');
   enlace.href = url;
