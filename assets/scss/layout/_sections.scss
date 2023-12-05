@@ -32,11 +32,6 @@
     @include media-breakpoint-down(md) {
         padding: 300px 0 0;
 
-        .contact-form-card {
-            border-bottom: 1px solid $border-color;
-        }
-
-        .contact-form-card,
         .contact-info-card {
             min-height: auto !important;
         }
@@ -50,7 +45,6 @@
         height: 100%;
     }
 
-    .contact-form-card,
     .contact-info-card {
         padding: 35px;
         background: $white;

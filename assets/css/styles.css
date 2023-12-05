@@ -9024,7 +9024,7 @@ button.bg-dark:focus {
 
 .pb-2,
 .py-2 {
-  padding-bottom: 0.5rem !important;
+  padding-bottom: 2.8rem !important;
 }
 
 .pl-2,
@@ -9097,6 +9097,10 @@ button.bg-dark:focus {
 .pb-5,
 .py-5 {
   padding-bottom: 3rem !important;
+}
+
+.pb-5 {
+  padding-bottom: 2.7rem !important;
 }
 
 .pl-5,
@@ -10940,7 +10944,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* typography */
 p {
-  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(15px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
   color: #444;
 }
@@ -10951,6 +10955,7 @@ p {
 
 .icon-md {
   font-size: 22px;
+  padding-left: 9px;
 }
 
 .icon-lg {
@@ -10972,7 +10977,7 @@ p {
 
 .info span {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: #343a40;
 }
 
@@ -11344,13 +11349,15 @@ pre .code {
 }
 
 .img-skills{
-  max-width: 51px;
-  height: 30px;
+  max-width: 99px;
+  height: 55px;
+  padding-top: 11px;
+  padding-bottom: 3px;
 }
 
 .social-icons {
   list-style-type: none;
-  padding-left: 0;
+  padding-left: 9px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11359,7 +11366,7 @@ pre .code {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 46px;
+  max-width: 52px;
 }
 
 .social-icons2{
@@ -11617,9 +11624,6 @@ pre .code {
 .contact {
   position: relative;
   min-height: 700px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -11636,10 +11640,6 @@ pre .code {
   .contact {
     padding: 300px 0 0;
   }
-  .contact .contact-form-card {
-    border-bottom: 1px solid #dee2e6;
-  }
-  .contact .contact-form-card,
   .contact .contact-info-card {
     min-height: auto !important;
   }
@@ -11653,15 +11653,10 @@ pre .code {
   height: 100%;
 }
 
-.contact .contact-form-card,
 .contact .contact-info-card {
   padding: 35px;
   background: #fff;
   min-height: 500px;
-}
-
-.contact .contact-info-card {
-  padding-right: 20px;
 }
 
 .contact .contact-title {
