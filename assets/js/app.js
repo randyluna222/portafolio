@@ -16,7 +16,6 @@ $(document).ready(function(){
     });
 });
 
-// protfolio filters
 $(window).on("load", function() {
     var t = $(".portfolio-container");
     t.isotope({
@@ -40,10 +39,8 @@ $(window).on("load", function() {
     });
 });
 
-//Ver PDF
 document.getElementById('descargarPDF').addEventListener('click', function() {
-  // Cambia esta URL por la del archivo PDF alojado en tu servidor
-  var url = 'https://pdf.ac/3b38z7';
+  var url = 'https://pdf.ac/2wBHkr';
 
   var enlace = document.createElement('a');
   enlace.href = url;
